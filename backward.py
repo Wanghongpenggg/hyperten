@@ -46,8 +46,8 @@ def backward():
                 loss_v = sess.run(cem, feed_dict={x: X, y_: Y_})
                 print("after %d steps:,loss is :%f", i, loss_v)
 
-    if __name__ == '__main__':
-        backward()
+if __name__ == '__main__':
+    backward()
 
 
 
